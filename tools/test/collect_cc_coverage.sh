@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+<<<<<<< HEAD
 # This script collects code coverage data for C++ sources, after the tests
 # were executed.
 #
@@ -34,7 +35,7 @@
 # gcda or profraw) and uses either lcov or gcov to get the coverage data.
 # The coverage data is placed in $COVERAGE_OUTPUT_FILE.
 
- function uses_llvm() {
+function uses_llvm() {
   if stat "${COVERAGE_DIR}"/*.profraw >/dev/null 2>&1; then
     return
   fi
