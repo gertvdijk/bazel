@@ -73,7 +73,6 @@ pkg_deb(
     data = ":debian-data",
     depends = [
         # Keep in sync with Depends section in ./control
-        "google-jdk | java8-sdk-headless | java8-jdk | java8-sdk | oracle-java8-installer",
         "g++",
         "zlib1g-dev",
         "bash-completion",
